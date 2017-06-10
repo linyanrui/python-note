@@ -24,7 +24,7 @@ class MyTimer():
     # stop calculate
     def stop(self):
         if not self.begin:
-            print('tip: please start calculating first')
+            print('tip: please zhenglei start calculating first')
         else:
             self.end = t.localtime()
             self._calc()
